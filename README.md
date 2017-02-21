@@ -10,9 +10,9 @@
     test_time = 60              #定时访问支付宝 保持cookie有效性 建议60s
     get_time = 60               #定时获取账单信息
 
-关于Cookie需要登录支付宝后按下F12，然后再console上面输入document.cookie复制cookie
+关于Cookie需要登录支付宝后按下F12，然后再console上面输入document.cookie，或者到开发者工具中查看HTTP报文
 
-只需要一个字段:
+Cookie 只需要其中一个字段:
 
     ALIPAYJSESSIONID=xxxxxxxxxxxxx
 
