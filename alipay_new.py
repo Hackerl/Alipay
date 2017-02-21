@@ -74,6 +74,6 @@ class alipay:
                 print (Name[i],Amount[i],Time[i],PaymentID[i])
                 f.write('%s    &     %d    |     %s\n' % (Amount[i],Time[i],PaymentID[i]))
         time.sleep(5)
-
-ali=alipay()
-ali.run()
+if __name__ =='__main__':
+    alipay=alipay()
+    alipay.run()
