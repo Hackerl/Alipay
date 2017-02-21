@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#可获取对方用户名，手机或邮箱，金额，订单号网址
 
 import threading
 import ConfigParser
@@ -80,9 +81,9 @@ class alipay:
         f=open('zhifu.txt','a+')
         for w in f.readlines():
             try:
-	        finish.append(w.split('|')[1][:-1])
-	    except:
-	        pass
+                finish.append(w.split('|')[1][:-1])
+            except:
+                pass
         result=[]
         for q in soup.find_all("tr",class_="J-item"):
             mon_num = q.find_all("span",class_="amount-pay")[0].get_text().replace('\t','').replace(' ','').replace('\n','').replace('\r','').encode('utf-8')
