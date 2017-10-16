@@ -1,36 +1,37 @@
-#Alipay
-Ö§¸¶±¦½»Ò×ÐÅÏ¢ÅÀ³æ
+# Alipay
+æ”¯ä»˜å®äº¤æ˜“ä¿¡æ¯çˆ¬è™«
+æŽ¨èä½¿ç”¨alipay_newï¼Œalipayä»£ç è¾ƒä¹±ï¼Œæ‡’å¾—é‡æž„
 
-# ÓÃ·¨
+# ç”¨æ³•
 
-ÅäÖÃCookie.cgf
+é…ç½®Cookie.cgf
 
     [alipay]
     cookie = ALIPAYJSESSIONID=RZ05jON66r5SUgJJcklt1kXxDimrohauthRZ1
-    test_time = 60              #¶¨Ê±·ÃÎÊÖ§¸¶±¦ ±£³ÖcookieÓÐÐ§ÐÔ ½¨Òé60s
-    get_time = 60               #¶¨Ê±»ñÈ¡ÕËµ¥ÐÅÏ¢
+    test_time = 60              #å®šæ—¶è®¿é—®æ”¯ä»˜å® ä¿æŒcookieæœ‰æ•ˆæ€§ å»ºè®®60s
+    get_time = 60               #å®šæ—¶èŽ·å–è´¦å•ä¿¡æ¯
 
-¹ØÓÚCookieÐèÒªµÇÂ¼Ö§¸¶±¦ºó°´ÏÂF12£¬È»ºóÔÙconsoleÉÏÃæÊäÈëdocument.cookie£¬»òÕßµ½¿ª·¢Õß¹¤¾ßÖÐ²é¿´HTTP±¨ÎÄ
+å…³äºŽCookieéœ€è¦ç™»å½•æ”¯ä»˜å®åŽæŒ‰ä¸‹F12ï¼Œç„¶åŽå†consoleä¸Šé¢è¾“å…¥document.cookieï¼Œæˆ–è€…åˆ°å¼€å‘è€…å·¥å…·ä¸­æŸ¥çœ‹HTTPæŠ¥æ–‡
 
-Cookie Ö»ÐèÒªÆäÖÐÒ»¸ö×Ö¶Î:
+Cookie åªéœ€è¦å…¶ä¸­ä¸€ä¸ªå­—æ®µ:
 
     ALIPAYJSESSIONID=xxxxxxxxxxxxx
 
 
-# ËµÃ÷
-alipay ¿É»ñÈ¡¶Ô·½Ãû×Ö£¬ÊÖ»ú»òÓÊÏä£¬½ð¶î£¬¶©µ¥ºÅÍøÖ·£¬¼¯³ÉÁËqqÓÊ¼þÄ£¿é£¬¿ÉÒÔÖ±½Óµ÷ÓÃ£¬·¢ËÍÓÊ¼þ:
+# è¯´æ˜Ž
+alipay å¯èŽ·å–å¯¹æ–¹åå­—ï¼Œæ‰‹æœºæˆ–é‚®ç®±ï¼Œé‡‘é¢ï¼Œè®¢å•å·ç½‘å€ï¼Œé›†æˆäº†qqé‚®ä»¶æ¨¡å—ï¼Œå¯ä»¥ç›´æŽ¥è°ƒç”¨ï¼Œå‘é€é‚®ä»¶:
 
     sender = '490021209@qq.com'
-    receivers =['490021209@qq.com']   # ½ÓÊÕÓÊ¼þ£¬¿ÉÉèÖÃÎªÄãµÄQQÓÊÏä»òÕßÆäËûÓÊÏä
+    receivers =['490021209@qq.com']   # æŽ¥æ”¶é‚®ä»¶ï¼Œå¯è®¾ç½®ä¸ºä½ çš„QQé‚®ç®±æˆ–è€…å…¶ä»–é‚®ç®±
 
-qqÓÊ¼þÃØÔ¿ÐèÒªÉêÇë£¬Çë×ÔÐÐËÑË÷
+qqé‚®ä»¶ç§˜é’¥éœ€è¦ç”³è¯·ï¼Œè¯·è‡ªè¡Œæœç´¢
 
-alipay_new ¿É»ñÈ¡½ð¶î£¬¶©µ¥ºÅ,Ê±¼ä£¬Ê¹ÓÃÁíÍâµÄapi£¬Ã»ÓÐÐ´±£³ÖcookieÄ£¿é£¬¿É×ÔÐÐÌí¼Ó
+alipay_new å¯èŽ·å–é‡‘é¢ï¼Œè®¢å•å·,æ—¶é—´ï¼Œä½¿ç”¨å¦å¤–çš„apiï¼Œæ²¡æœ‰å†™ä¿æŒcookieæ¨¡å—ï¼Œå¯è‡ªè¡Œæ·»åŠ 
 
-½á¹û:
+ç»“æžœ:
 
-    ÐÕÃû187****3962&30.00|https://shenghuo.alipay.com/send/queryTransferDetail.htm?tradeNo=20170221200040011100460045967033
-    ÓÃ»§Ãû  ÊÖ»úºÅ    ½ð¶î                    ¶©µ¥ºÅÐÅÏ¢
+    å§“å187****3962&30.00|https://shenghuo.alipay.com/send/queryTransferDetail.htm?tradeNo=20170221200040011100460045967033
+    ç”¨æˆ·å  æ‰‹æœºå·    é‡‘é¢                    è®¢å•å·ä¿¡æ¯
     
     30.00    &     1487677389    |     20170221200040011100790046934184
-    ½ð¶î             Ê±¼ä                     ¶©µ¥ºÅ
+    é‡‘é¢             æ—¶é—´                     è®¢å•å·
